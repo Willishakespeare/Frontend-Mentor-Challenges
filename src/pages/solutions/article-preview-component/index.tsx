@@ -231,7 +231,7 @@ const Index: React.FC = () => {
     <StyledContainer>
       <Head>
         <title>Article Preview Component</title>
-        <meta lang="en" name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <link href={PrincipalTheme.articlePreviewComponent.Fonts.FontSource} rel="stylesheet" />
       </Head>
       <StyledTag>
