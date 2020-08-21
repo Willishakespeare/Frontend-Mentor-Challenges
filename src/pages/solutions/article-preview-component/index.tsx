@@ -49,7 +49,7 @@ const StyledTagContainer = styled.div`
   justify-content: center;
 
   @media (max-width: 768px) {
-    justify-content: baseline;
+    justify-content: flex-start;
     padding: 30px 30px 0px 40px;
     border-radius: 0px 0px 10px 10px;
     width: 327px;
@@ -231,7 +231,7 @@ const Index: React.FC = () => {
     <StyledContainer>
       <Head>
         <title>Article Preview Component</title>
-        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+        <meta lang="en" name="viewport" content="initial-scale=1.0, width=device-width" />
         <link href={PrincipalTheme.articlePreviewComponent.Fonts.FontSource} rel="stylesheet" />
       </Head>
       <StyledTag>
